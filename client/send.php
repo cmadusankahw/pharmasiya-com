@@ -74,12 +74,12 @@ echo '<option value="'.$row_AccountDetails['namee'].'">'.$row_AccountDetails['na
           </div>
 
           <div class="form-group" style="padding-top:45px;">
-            <b><label for="seltown">ලගම පොලිසිය</label></b>
+            <b><label for="seltown">ලගම තැපැල් කාර්යාලය</label></b>
             <input type="text" value="" class="form-control" id="police" name="police" readonly> 
           </div>
 
           <div class="form-group" style="padding-top:45px;">
-            <b><label for="seltown">ලගම පොලිසියේ දුරකතන අංකය</label></b>
+            <b><label for="seltown">ලගම තැපැල් කාර්යාලයේ දුරකථන අංකය</label></b>
             <input type="text" value="" class="form-control"  id="policenum" name="policenum" readonly> 
           </div>
 

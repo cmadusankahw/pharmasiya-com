@@ -42,7 +42,7 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light" style="color:darkred;"><a href="index.html"><span>ෆාමසිය.com </span></a></h1>
+        <h1 class="text-light" style="color:darkred;"><a href="index.php"><span>ෆාමසිය.com </span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -203,7 +203,7 @@
           <h2 style="color:darkblue;"><b>ඇණවුම් කරන්න </b></h2>
           <p> ඖෂධ ඇණවුම් කිරීම සදහා ඕබට ආසන්න ෆාමසිය තෝරා ගන්න.</p>
           <hr>
-             <a href="https://pharmasiya.com/client/register.php" class="btn  btn-lg btn-primary scrollto" target="_blank" style="margin:0 auto;">දැන්ම ඇණවුම් කරන්න</a>
+             <a href="/client" class="btn  btn-lg btn-primary scrollto" target="_blank" style="margin:0 auto;">දැන්ම ඇණවුම් කරන්න</a>
 
         </div>
 

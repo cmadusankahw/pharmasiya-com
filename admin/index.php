@@ -19,6 +19,11 @@ if(isset($_SESSION['userid'])){
     <link rel="stylesheet" href="style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
     <style>
+    
+    
+   
+
+    
         .login{
   min-height: 100vh;
   background-color: #f7f7f7;
@@ -30,7 +35,7 @@ if(isset($_SESSION['userid'])){
   background: #fff;height: 80vh;
 }
 .login .login-sidebar{
-  background:  url('https://i.ibb.co/Gksqc2K/gamu.png')center center no-repeat;
+  background:  url('https://i.ibb.co/xLmg3Rv/logo.jpg')center center no-repeat;
   background-size:auto;
   display: flex;
   align-items: center;
@@ -99,7 +104,7 @@ if(isset($_SESSION['userid'])){
                 
                 <div class="column is-12 field-box">
                   <div class="column is-7 is-offset-1">
-                    <h1 class="login-heading">Welcome to epharmacy</h1>
+                    <h1 class="login-heading">Welcome to Pharmasiya.com</h1>
                     <p class="login-subheading">We support the Sri Lankan community to prevent the spread of covid 19 by reducing the waiting lines in consumer good shops </p>
                     <form method="POST" action="login.php">
                       <div class="field">

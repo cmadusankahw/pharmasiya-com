@@ -66,9 +66,9 @@
           </div>
           <div class="form-group" style="padding-top:30px;">
             <b><label for="telInput">ෆාමසියේ දුරකථන අංකය</label></b>
-            <input type="text" class="form-control" id="telInput" name="telInput" pattern="[0-9]{10}" title="දුරකතන අන්කයට ඉලක්කම් 10ක් විය යුතුය."aria-describedby="nameemailHelp" placeholder="eg:-0779991110/0112343564" required>
+
+                       <input type="text" class="form-control" id="telInput" name="telInput" pattern="[0-9]{9}" title="දුරකතන අන්කයට ඉලක්කම් 10ක් විය යුතුය."aria-describedby="nameemailHelp" placeholder=" 0 නොමැතිව සදහන් කරන්න  eg:-77999111  " required>
           </div>
-         
           <div class="form-group" style="padding-top:45px;">
             <b><label for="nameInput">ෆාමසියේ ලිපිනය​</label></b>
             <input type="text" class="form-control" id="address" name="address" title="ෆාමසියේ ලිපිනය​."  placeholder="" required>
@@ -80,11 +80,11 @@
           </div>
 
           <div class="form-group" style="padding-top:45px;">
-            <b><label for="nameInput">ලගම පොලීසිය​​​</label></b>
+            <b><label for="nameInput">ලගම තැපැල් කාර්යාලය</label></b>
             <input type="text" class="form-control" id="pname" name="pname" title="ලගම පොලීසිය​."   required>
           </div>
           <div class="form-group" style="padding-top:45px;">
-            <b><label for="nameInput">ඔබ දන්නේ නම් පොලිසියේ දුරකථන අංකය​​​</label></b>
+            <b><label for="nameInput">ඔබ දන්නේනම් ලගම තැපැල් කාර්යාලයේ දුරකතන අංකය</label></b>
             <input type="text" class="form-control" id="pmobile" name="pmobile" title="පොලිසියේ දුරකථන අංකය​."   >
           </div>
 

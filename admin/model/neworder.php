@@ -22,6 +22,7 @@ require'conn.php';
                 @$name=$row_AccountDetails['name'];
           
             @$mobile=$row_AccountDetails['mobile'];
+                 @$adress=$row_AccountDetails['adress'];
             @$img=$row_AccountDetails['img'];
             
         }
@@ -36,6 +37,7 @@ require'conn.php';
         echo @$statuss."^%#+^";
 echo @$name."^%#+^";
 echo @$mobile."^%#+^";
+echo @$adress."^%#+^";
 echo @$img."^%#+^";
 
 
