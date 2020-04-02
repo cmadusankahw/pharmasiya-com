@@ -1,0 +1,5 @@
+[29-Mar-2020 09:43:43 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/accsxaec/pharmasiya.com/client/model/makeorder.php on line 27
+[29-Mar-2020 09:43:43 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/accsxaec/pharmasiya.com/client/model/makeorder.php on line 32
+[29-Mar-2020 09:43:43 America/New_York] PHP Notice:  Undefined variable: mobilenumber1 in /home/accsxaec/pharmasiya.com/client/model/makeorder.php on line 57
+[29-Mar-2020 09:46:41 America/New_York] PHP Notice:  Undefined variable: mobilenumber1 in /home/accsxaec/pharmasiya.com/client/model/makeorder.php on line 57
+[29-Mar-2020 09:50:36 America/New_York] PHP Notice:  Undefined variable: mobilenumber1 in /home/accsxaec/pharmasiya.com/client/model/makeorder.php on line 51
