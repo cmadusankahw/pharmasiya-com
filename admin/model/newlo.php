@@ -25,22 +25,33 @@ if($num_rows=0){
 }
 }
 
-$message="ඔබගේ ඇණවුම සූදානම්.ඇණවුම් අංකය :-".$orderid."මිල ".$price;
+
+
+$message="ඔබගේ ඇණවුම සූදානම්.ඇණවුම් අංකය :-".$orderid.":-මිල  රු .".$price."  www.pharmasiya.com";
+
 $query1 ="UPDATE orders SET statuss='Ready',price='$price' WHERE   id='$orderid'";
 
 if ($conn->query($query1) === TRUE) {
-    $user = 94770508710;
-    $password = 1497;
+    //$user = 94770508710;
+    //$password = 1497;
         $text = urlencode($message);
-        $to = "$mobilenumber";
+        $to = "94".$mobilenumber;
         // echo($to);
         
-        $baseurl ="http://www.textit.biz/sendmsg";
-        $url = "$baseurl/?id=$user&pw=$password&to=$to&text=$text";
+     //   $baseurl ="http://www.textit.biz/sendmsg";
+       // $url = "$baseurl/?id=$user&pw=$password&to=$to&text=$text";
+       
+      
+     
+// $to ="94757957510";
+        // echo($to);
+        
+       
+          $url = "https://app.newsletters.lk/smsAPI?sendsms&apikey=ICcenN1YgHUTYB9vpGzSE8KlEDt6f5xd&apitoken=JIMA1584899484&from=MY%20BILL&to=$to&type=sms&text=$text";
         $ret = file($url);
         
-        $res= explode(":",$ret[0]);   
-  
+        $res= explode(":",$ret[0]); 
+
 
     @$statuss=1;
       

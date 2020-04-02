@@ -2,3 +2,11 @@
 [29-Mar-2020 12:33:09 America/New_York] PHP Notice:  Undefined variable: name in /home/accsxaec/pharmasiya.com/client/send.php on line 88
 [29-Mar-2020 12:33:09 America/New_York] PHP Notice:  Undefined variable: mobile in /home/accsxaec/pharmasiya.com/client/send.php on line 89
 [29-Mar-2020 12:33:09 America/New_York] PHP Notice:  Undefined variable: address in /home/accsxaec/pharmasiya.com/client/send.php on line 90
+[01-Apr-2020 13:37:19 America/New_York] PHP Notice:  Undefined variable: distric in /home/accsxaec/pharmasiya.com/client/send.php on line 48
+[01-Apr-2020 13:37:19 America/New_York] PHP Notice:  Undefined variable: name in /home/accsxaec/pharmasiya.com/client/send.php on line 88
+[01-Apr-2020 13:37:19 America/New_York] PHP Notice:  Undefined variable: mobile in /home/accsxaec/pharmasiya.com/client/send.php on line 89
+[01-Apr-2020 13:37:19 America/New_York] PHP Notice:  Undefined variable: address in /home/accsxaec/pharmasiya.com/client/send.php on line 90
+[02-Apr-2020 04:04:34 America/New_York] PHP Notice:  Undefined variable: distric in /home/accsxaec/pharmasiya.com/client/send.php on line 48
+[02-Apr-2020 04:04:34 America/New_York] PHP Notice:  Undefined variable: name in /home/accsxaec/pharmasiya.com/client/send.php on line 88
+[02-Apr-2020 04:04:34 America/New_York] PHP Notice:  Undefined variable: mobile in /home/accsxaec/pharmasiya.com/client/send.php on line 89
+[02-Apr-2020 04:04:34 America/New_York] PHP Notice:  Undefined variable: address in /home/accsxaec/pharmasiya.com/client/send.php on line 90

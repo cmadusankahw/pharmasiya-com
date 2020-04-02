@@ -32,6 +32,9 @@ require'model/conn.php';
     </script>";
      header('refresh:1; home.php');
     }else{
+        unset($_SESSION);
+session_destroy();
+session_write_close();
 
         echo "<script>alert('Password Incorect');
        

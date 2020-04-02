@@ -34,7 +34,7 @@ if ($conn->query($query2) === TRUE) {
       
         </script>";
         
-        $message="ඔබ හට නව ඇණවුමක් ලැබී ඇත​.";
+      $message="ඔබ හට නව ඇණවුමක් ලැබී ඇත​ :-  www.pharmsiya.com";
         
         $text = urlencode($message);
       $to = "94".$pnum;

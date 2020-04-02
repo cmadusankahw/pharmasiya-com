@@ -119,6 +119,18 @@ if(isset($_SESSION['userid'])){
                     <span id="cusname"></span>
                 </div>
             </div>
+            
+            
+             <div class="row"  style="padding:15px;">
+                <div class="col" style="font-weight:bold; color:darkslateblue; text-align:right;">
+                    Customer Adress :
+                </div>
+                <div class="col">
+                    <span id="cusadd"></span>
+                </div>
+            </div>
+            
+            
             <div class="row"  style="padding:15px;">
                 <div class="col" style="font-weight:bold; color:darkslateblue; text-align:right;">
                     Contact No :
@@ -227,8 +239,8 @@ function getids(loid){
                   var field = xml.split('^%#+^');
                   document.getElementById('ids').innerHTML=loid;
                   document.getElementById('cusname').innerHTML=field[1];
-                  document.getElementById('cusmobi').innerHTML=field[2];
-                  document.getElementById("fimg").src = "../client/img/products/"+field[3];;
+                     document.getElementById('cusadd').innerHTML=field[3];
+                  document.getElementById("fimg").src = "../client/img/products/"+field[4];;
                   call();
                  
 									//document.getElementById('tryid').value=field[0];
